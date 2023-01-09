@@ -147,7 +147,19 @@ body {
     border-bottom: 1px solid white;
     width: 20%;
   }
-  
+
+  @media  (min-width: 700px) {
+    .mainpage_nav {
+        flex-direction: row;
+        display: flex;
+    }
+}
+@media  (min-width: 700px) {
+    iframe {
+      height: 300px;
+      width: 500px;
+    }
+  }
   
   
   
